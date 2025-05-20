@@ -1,16 +1,37 @@
 # Introduction to Electric Circuits – Review Log
 
-This repository tracks my personal review process for the textbook  
-**"Introduction to Electric Circuits" by Richard C. Dorf and James A. Svoboda.**
+This repository documents my personal review of the textbook  
+**"Introduction to Electric Circuits (9th Edition)" by Richard C. Dorf and James A. Svoboda.**
 
-It focuses on identifying practice problems that I struggled with and organizing them by chapter and review attempt. Only problem numbers are listed; no problem content is reproduced. The goal is to reinforce understanding of core circuit concepts through repeated self-testing and targeted review.
+Each chapter is organized into its own folder and contains `.txt` files listing only the problem numbers I found challenging.  
+I revisit these problems in multiple attempts to reinforce understanding of fundamental circuit concepts through repetition and self-testing.  
+No problem content is reproduced; only references by chapter and problem number are included.
 
 ---
 
 ## Study Method
 
-1. Solve all problems from the textbook.
+1. Solve all end-of-chapter problems from the textbook.
 2. List only the problems I could not solve without help.
-3. Reattempt those problems at a later date.
-4. Keep track of which problems I resolved and which still remain unclear.
-5. Repeat until fully confident in all core problem types.
+3. Reattempt the problems in the next attempt.
+4. Record which ones remain unclear or are resolved.
+5. Repeat this process to strengthen understanding.
+
+---
+
+## Example entry format
+Exercise
+Ex 3.4-1, 3.4-2
+
+Problems
+P 3.2-9, 3.3-1, 3.4-6, 3.6-11
+
+Design Problems
+DP 3-1
+---
+
+## Notes
+
+This repository is for personal academic review.  
+Problem listings are based on the official textbook  
+**"Introduction to Electric Circuits (9th Edition)" by Dorf and Svoboda.**
