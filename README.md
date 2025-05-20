@@ -9,7 +9,7 @@ It focuses on identifying practice problems that I struggled with and organizing
 
 ## Study Method
 
-1. Solve all end-of-chapter problems from the textbook.
+1. Solve all problems from the textbook.
 2. List only the problems I could not solve without help.
 3. Reattempt those problems at a later date.
 4. Keep track of which problems I resolved and which still remain unclear.
