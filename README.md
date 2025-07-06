@@ -1,4 +1,4 @@
-# Dorf Circuit Analysis Notes (9th Edition)
+# Introduction to Electric Circuits (9th Edition)
 
 This repository contains my personal study notes and problem-solving logs while reviewing the **9th edition** of the textbook *"Introduction to Electric Circuits"* by Dorf and Svoboda.
 
