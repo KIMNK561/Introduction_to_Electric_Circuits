@@ -13,3 +13,11 @@ The voltage across a resistor depends on the reference direction of voltage and 
 Combining the energy absorption in circuit elements and voltage sign in resistors, we can conclude:
 
 > 💡 **A resistor with positive resistance always absorbs energy, regardless of the reference directions of voltage and current.**
+
+## Design Using Op-Amp
+
+To design with operational amplifiers, it is helpful to **memorize common configurations** that relate input(s) to output based on the desired signal behavior.
+
+<img src="../images/commonopamp1.jpg" alt="Op-Amp Classic Configurations" width="500"/>
+
+<img src="../images/commonopamp2.jpg" alt="Op-Amp Design Examples" width="500"/>
