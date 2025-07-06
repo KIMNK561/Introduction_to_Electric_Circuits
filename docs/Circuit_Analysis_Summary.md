@@ -18,6 +18,6 @@ Combining the energy absorption in circuit elements and voltage sign in resistor
 
 To design with operational amplifiers, it is helpful to **memorize common configurations** that relate input(s) to output based on the desired signal behavior.
 
-<img src="../images/commonopamp1.jpg" alt="Op-Amp Classic Configurations" width="500"/>
+<img src="../images/commonopamp1.jpg" alt="Op-Amp Classic Configurations" width="1500"/>
 
-<img src="../images/commonopamp2.jpg" alt="Op-Amp Design Examples" width="500"/>
+<img src="../images/commonopamp2.jpg" alt="Op-Amp Design Examples" width="1500"/>
