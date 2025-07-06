@@ -26,6 +26,6 @@ To design with operational amplifiers, it is helpful to **memorize common config
 
 In real life, an op-amp is not ideal. Several **non-ideal models** can be considered depending on the required accuracy.
 
-<img src="../images/practical_opamp_model.jpg" alt="Practical Op-Amp Model" width="500"/>
+<img src="../images/practical_opamp_model.jpg" alt="Practical Op-Amp Model" width="1500"/>
 
 > 💡 Bias current, input offset voltage, voltage gain and internal resistances for a practical op-amp vary by model and can be referenced from standard datasheets or textbooks.
