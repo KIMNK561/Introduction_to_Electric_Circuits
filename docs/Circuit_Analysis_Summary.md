@@ -21,19 +21,25 @@ then **C is said to be the equivalent circuit of B**, and vice versa.
 
 <img src="../images/equivalent_circuit.jpg" alt="Equivalent Circuit Concept" width="500"/>
 
+### 💡 Mapping Equivalent Resistance: Simplifying a Complex Resistor Network
 
+1. **Mark all nodes** as distinct dots or circles  
+2. **Draw resistors as lines** connecting these nodes
+
+<img src="../images/MappingResistor.jpg" alt="Resistor map" width="1200"/>
+  
 ## Design Using Op-Amp
 
 To design with operational amplifiers, it is helpful to **memorize common configurations** that relate input(s) to output based on the desired signal behavior.
 
-<img src="../images/commonopamp1.jpg" alt="Op-Amp Classic Configurations" width="1500"/>
+<img src="../images/commonopamp1.jpg" alt="Op-Amp Classic Configurations" width="1200"/>
 
-<img src="../images/commonopamp2.jpg" alt="Op-Amp Design Examples" width="1500"/>
+<img src="../images/commonopamp2.jpg" alt="Op-Amp Design Examples" width="1200"/>
 
 ## Practical Op-Amp
 
 In real life, an op-amp is not ideal. Several **non-ideal models** can be considered depending on the required accuracy.
 
-<img src="../images/practical_opamp_model.jpg" alt="Practical Op-Amp Model" width="1500"/>
+<img src="../images/practical_opamp_model.jpg" alt="Practical Op-Amp Model" width="1200"/>
 
 > 💡 Bias current, input offset voltage, voltage gain and internal resistances for a practical op-amp vary by model and can be referenced from standard datasheets or textbooks.
