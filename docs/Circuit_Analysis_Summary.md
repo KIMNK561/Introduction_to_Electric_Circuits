@@ -14,6 +14,14 @@ Combining the energy absorption in circuit elements and voltage sign in resistor
 
 > 💡 **A resistor with positive resistance always absorbs energy, regardless of the reference directions of voltage and current.**
 
+## Equivalent Circuit
+
+If replacing a part of the circuit (B) with another circuit (C) does **not change** the voltage or current of any element in the remaining circuit (A),  
+then **C is said to be the equivalent circuit of B**, and vice versa.
+
+<img src="../images/equivalent_circuit.jpg" alt="Equivalent Circuit Concept" width="500"/>
+
+
 ## Design Using Op-Amp
 
 To design with operational amplifiers, it is helpful to **memorize common configurations** that relate input(s) to output based on the desired signal behavior.
