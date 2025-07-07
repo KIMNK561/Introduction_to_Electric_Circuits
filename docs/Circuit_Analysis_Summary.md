@@ -26,7 +26,7 @@ then **C is said to be the equivalent circuit of B**, and vice versa.
 1. **Mark all nodes** as distinct dots or circles  
 2. **Draw resistors as lines** connecting these nodes
 
-<img src="../images/MappingResistor.jpg" alt="Resistor map" width="1200"/>
+<img src="../images/MappingResistor.jpg" alt="Resistor map" width="700"/>
   
 ## Design Using Op-Amp
 
