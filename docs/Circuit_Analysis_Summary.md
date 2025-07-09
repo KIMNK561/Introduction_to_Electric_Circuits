@@ -27,8 +27,10 @@ then **C is said to be the equivalent circuit of B**, and vice versa.
 2. **Draw resistors as lines** connecting these nodes
 
 <img src="../images/MappingResistor.jpg" alt="Resistor map" width="700"/>
+
+## Operational Amplifier
   
-## Design Using Op-Amp
+### Design Using Op-Amp
 
 To design with operational amplifiers, it is helpful to **memorize common configurations** that relate input(s) to output based on the desired signal behavior.
 
@@ -36,7 +38,7 @@ To design with operational amplifiers, it is helpful to **memorize common config
 
 <img src="../images/commonopamp2.jpg" alt="Op-Amp Design Examples" width="1000"/>
 
-## Practical Op-Amp
+### Practical Op-Amp
 
 In real life, an op-amp is not ideal. Several **non-ideal models** can be considered depending on the required accuracy.
 
