@@ -50,14 +50,16 @@ In real life, an op-amp is not ideal. Several **non-ideal models** can be consid
 
 The **gain** of a system refers to the **ratio of output to input amplitudes**:
 
-- **Linear scale**:  
-  \[
-  \text{Gain} = \frac{\text{Output}}{\text{Input}}
-  \]
+- **Linear scale** (general):  
+  `Gain = Output / Input`  
+  Can be **negative** if the output is **180° out of phase** with the input.
 
-- **Decibels (dB)**:  
-  Use 10log when dealing with **power**, and 20log when dealing with **voltage or current**, assuming the load impedance is constant.
-
+- **Magnitude in Bode plot**:  
+  - For **power**:  `Gain_dB = 10 * log10( |Output / Input| )`  
+  - For **voltage or current**: `Gain_dB = 20 * log10( |Output / Input| )`  
+  We use **magnitude only**, so we apply the absolute value.
+  Phase inversion is handled separately in the **phase plot**.
+  
 ### Bode Plot
 
 A **Bode plot** displays the **gain (in dB)** and **phase (in degrees)** of a **network function** versus the **logarithm of frequency**.
@@ -73,10 +75,8 @@ The **asymptotic magnitude Bode plot** is a piecewise linear approximation (**dr
 
 - **Corner frequency**:  
   The frequency at which the gain drops to  
-  \[
-  \frac{1}{\sqrt{2}} \times \text{maximum gain}
-  \]  
-  It often occurs when \( \omega \to 0 \) or \( \omega \to \infty \) gives the maximum gain.
+  `1/√2 × maximum gain`  
+  It often occurs when ω → 0 or ω → ∞ gives the maximum gain.
 
 - **Break frequency**:  
   The frequency at which the **asymptotic magnitude Bode plot** changes slope.
