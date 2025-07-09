@@ -71,14 +71,14 @@ The **asymptotic magnitude Bode plot** is a piecewise linear approximation (**dr
 
 > 💡 **Definition-wise, the Bode plot is the exact magnitude and phase plot. But in most practical contexts, "sketching" the Bode plot refers to drawing the asymptotic approximation.**
 
-### Corner Frequency vs. Break Frequency
+### 3dB Frequency vs. Corner Frequency
 
-- **Corner frequency**:  
+- **3dB frequency=cutoff frequency**:  
   The frequency at which the gain drops to  
   `1/√2 × maximum gain`  
   It often occurs when ω → 0 or ω → ∞ gives the maximum gain.
 
-- **Break frequency**:  
+- **Corner frequency, Break frequency**:  
   The frequency at which the **asymptotic magnitude Bode plot** changes slope.
 
-> 💡 In simple systems, these frequencies are often the same, but they are conceptually different.
+> 💡 **In first-order systems, the 3dB frequency and the corner (or break) frequency are exactly the same, but in higher-order systems, they can differ due to the curvature of the actual response.**
