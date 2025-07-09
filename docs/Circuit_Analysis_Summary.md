@@ -81,4 +81,4 @@ The **asymptotic magnitude Bode plot** is a piecewise linear approximation (**dr
 - **Corner frequency, Break frequency**:  
   The frequency at which the **asymptotic magnitude Bode plot** changes slope.
 
-> 💡 **In first-order systems, the 3dB frequency and the corner (or break) frequency are exactly the same, but in higher-order systems, they can differ due to the curvature of the actual response.**
+> 💡 In first-order systems, the 3dB and corner frequencies are identical. In higher-order systems, they may differ—unless the poles are widely separated, in which case the corner frequency remains a good approximation.
