@@ -48,19 +48,17 @@ In real life, an op-amp is not ideal. Several **non-ideal models** can be consid
 
 ## Frequency Response
 
-### Gain
+### Gain in Frequency Response
 
-The **gain** of a system refers to the **ratio of output to input amplitudes**:
+The **gain** of a system in frequency response refers to the **ratio of output to input amplitudes**: 
 
-- **Linear scale** (general):  
-  `Gain = Output / Input`  
-  Can be **negative** if the output is **180° out of phase** with the input.
+- **Linear scale**:  
+  Gain = Output amplitude / Input amplitude  
+  This value is always **positive**, since amplitudes represent magnitudes and are inherently non-negative.
 
-- **Magnitude in Bode plot**:  
-  - For **power**:  `Gain_dB = 10 * log10( |Output / Input| )`  
-  - For **voltage or current**: `Gain_dB = 20 * log10( |Output / Input| )`  
-  We use **magnitude only**, so we apply the absolute value.
-  Phase inversion is handled separately in the **phase plot**.
+- **dB scale**:  
+  - For **power**:  Gain_dB = 10 * log10(Gain)  
+  - For **voltage or current**: Gain_dB = 20 * log10(Gain)
   
 ### Bode Plot
 
