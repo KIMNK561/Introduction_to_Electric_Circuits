@@ -46,6 +46,11 @@ In real life, an op-amp is not ideal. Several **non-ideal models** can be consid
 
 > 💡 Bias current, input offset voltage, voltage gain and internal resistances for a practical op-amp vary by model and can be referenced from standard datasheets or textbooks.
 
+### Capacitor: Charge–Voltage Relationship
+
+The amount of **charge** stored in a capacitor is proportional to the voltage across its plates:
+q=Cv
+
 ## Frequency Response
 
 ### Gain in Frequency Response
