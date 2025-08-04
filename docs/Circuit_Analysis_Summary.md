@@ -14,6 +14,13 @@ Combining the energy absorption in circuit elements and voltage sign in resistor
 
 > 💡 **A resistor with positive resistance always absorbs energy, regardless of the reference directions of voltage and current.**
 
+## Analyzing Circuits with KCL & KVL — Quick Tips
+1. Identify the **target** (current or voltage).  
+2. Apply all given relations before using supernode/supermesh.  
+3. **KCL**: Keep a consistent direction — incoming currents on the left, outgoing on the right.  
+4. **KVL**: List resistances, add voltage sources with correct signs, then write current terms.  
+5. **Notation**: Node voltages in ○, currents (entry side) in □.
+
 ## Equivalent Circuit
 
 If replacing a part of the circuit (B) with another circuit (C) does **not change** the voltage or current of any element in the remaining circuit (A),  
