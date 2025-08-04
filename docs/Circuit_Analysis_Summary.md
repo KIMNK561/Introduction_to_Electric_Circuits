@@ -14,15 +14,6 @@ Combining the energy absorption in circuit elements and voltage sign in resistor
 
 > 💡 **A resistor with positive resistance always absorbs energy, regardless of the reference directions of voltage and current.**
 
-## Analyzing Circuits with KCL & KVL — Quick Tips
-1. Identify the **target** (current or voltage).  
-2. Apply all given relations before using supernode/supermesh.  
-3. **KCL**: Keep a consistent direction — incoming currents on the left, outgoing on the right.  
-4. **KVL**: List resistances, add voltage sources with correct signs, then write current terms.  
-5. **Notation**: Node voltages in ○, currents (entry side) in □.
-
-<img src="../images/kcl_kvl_example.jpg" alt="KCL & KVL Example" width="800"/>
-
 ## Equivalent Circuit
 
 If replacing a part of the circuit (B) with another circuit (C) does **not change** the voltage or current of any element in the remaining circuit (A),  
@@ -36,6 +27,15 @@ then **C is said to be the equivalent circuit of B**, and vice versa.
 2. **Draw resistors as lines** connecting these nodes
 
 <img src="../images/MappingResistor.jpg" alt="Resistor map" width="700"/>
+
+## Analyzing Circuits with KCL & KVL — Quick Tips
+1. Identify the **target** (current or voltage).  
+2. Apply all given relations before using supernode/supermesh.  
+3. **KCL**: Keep a consistent direction — incoming currents on the left, outgoing on the right.  
+4. **KVL**: List resistances, add voltage sources with correct signs, then write current terms.  
+5. **Notation**: Node voltages in ○, currents (entry side) in □.
+
+<img src="../images/kcl_kvl_example.jpg" alt="KCL & KVL Example" width="800"/>
 
 ## Operational Amplifier
   
