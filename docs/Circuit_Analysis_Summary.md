@@ -16,17 +16,21 @@ Combining the energy absorption in circuit elements and voltage sign in resistor
 
 ## Equivalent Circuit
 
-If replacing a part of the circuit (B) with another circuit (C) does **not change** the voltage or current of any element in the remaining circuit (A),  
-then **C is said to be the equivalent circuit of B**, and vice versa.
+If replacing a part of the circuit B with another circuit C does **not change** the voltage or current of any element in the remaining circuit A, then **C is said to be the equivalent circuit of B**, and vice versa. 
 
-<img src="../images/equivalent_circuit.jpg" alt="Equivalent Circuit Concept" width="500"/>
+> 💡 Why do we use equivalent circuits? 
+> When we are interested in finding the voltage or current in circuit A (not in B or C, since those will generally change), we can replace the remaining part of the circuit with an equivalent circuit, depending on our purpose. 
 
-### 💡 Mapping Equivalent Resistance: Simplifying a Complex Resistor Network
+<img src="../images/equivalent_circuit.jpg" alt="Equivalent Circuit Concept" width="500"/> 
 
-1. **Mark all nodes** as distinct dots or circles  
-2. **Draw resistors as lines** connecting these nodes
+### Mapping Equivalent Resistance: Simplifying a Complex Resistor Network 
+1. **Mark all nodes** as distinct dots or circles 
+2. **Draw resistors as lines** connecting these nodes 
 
-<img src="../images/MappingResistor.jpg" alt="Resistor map" width="700"/>
+<img src="../images/MappingResistor.jpg" alt="Resistor map" width="700"/> 
+
+### Thevenin & Norton Equivalent
+Among the infinitely many possible equivalent circuits, the Thevenin and Norton forms are particular choices that have proven especially useful.
 
 ## Analyzing Circuits with KCL & KVL — Quick Tips
 1. Identify the **target** (current or voltage).  
