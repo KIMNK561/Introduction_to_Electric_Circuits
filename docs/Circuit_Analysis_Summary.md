@@ -19,7 +19,8 @@ Combining the energy absorption in circuit elements and voltage sign in resistor
 If replacing a part of the circuit B with another circuit C does **not change** the voltage or current of any element in the remaining circuit A, then **C is said to be the equivalent circuit of B**, and vice versa. 
 
 > 💡 **Why do we use equivalent circuits?**
-> When we are interested in finding the voltage or current in circuit A (not in B or C, since those will generally change), we can replace the remaining part of the circuit with an equivalent circuit, depending on our purpose. 
+> We are interested in the voltage or current in circuit A, not in B or C (since those will generally change).
+>  To simplify the analysis, we replace the rest of the circuit with an equivalent circuit suited to our purpose.
 
 <img src="../images/equivalent_circuit.jpg" alt="Equivalent Circuit Concept" width="500"/> 
 
