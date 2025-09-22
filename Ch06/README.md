@@ -17,8 +17,8 @@ The corresponding circuits are usually derived under the assumption of an **idea
 
 <img src="../images/practical_opamp_model.jpg" alt="Practical Op-Amp Model" width="800"/>
 
+When applying **KCL** to a circuit with an op-amp, we need to be careful at the output node. The output current $$i_{o}$$ is supplied internally by the op-amp’s voltage source, and if we do not know its value, the equation only adds an unknown variable instead of helping with analysis.
+
 An op-amp does not work properly unless certain conditions are satisfied:
 
 $$ |v_o| < V_{sat}, \quad |i_o| < I_{sat}, \quad \left|\frac{d v_o}{dt}\right| < SR $$
-
-When applying **KCL** to a circuit with an op-amp, we need to be careful at the output node. The output current $$i_{o}$$ is supplied internally by the op-amp’s voltage source, and if we do not know its value, the equation only adds an unknown variable instead of helping with analysis.
