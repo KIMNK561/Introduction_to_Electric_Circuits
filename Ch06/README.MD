@@ -2,7 +2,7 @@
 
 Today’s topic can be summarized in one sentence: **“We can make a circuit act like a signal operator using an operational amplifier.”**
 
-A signal is a voltage or current that represents a quantity such as temperature, pressure, or sound. An operator is a symbol indicating a specific calculation, such as +, −, d/dt, or ∫. With different circuit designs, we can add, subtract, differentiate, and integrate signals.
+A signal is a voltage or current that represents a quantity such as temperature, pressure, or sound. An operator is a symbol indicating a specific calculation, such as $$+$$, $$−$$, $$\tfrac{d}{dt}$$, or $$\int$$. With different circuit designs, we can add, subtract, differentiate, and integrate signals.
 
 For example, suppose we want
 
