@@ -42,24 +42,6 @@ Among the infinitely many possible equivalent circuits, the Thevenin and Norton 
 
 <img src="../images/kcl_kvl_example.jpg" alt="KCL & KVL Example" width="800"/>
 
-## Operational Amplifier
-  
-### Design Using Op-Amp
-
-To design with operational amplifiers, it is helpful to **memorize common configurations** that relate input(s) to output based on the desired signal behavior.
-
-<img src="../images/commonopamp1.jpg" alt="Op-Amp Classic Configurations" width="1000"/>
-
-<img src="../images/commonopamp2.jpg" alt="Op-Amp Design Examples" width="1000"/>
-
-### Practical Op-Amp
-
-In real life, an op-amp is not ideal. Several **non-ideal models** can be considered depending on the required accuracy.
-
-<img src="../images/practical_opamp_model.jpg" alt="Practical Op-Amp Model" width="1000"/>
-
-> 💡 Bias current, input offset voltage, voltage gain and internal resistances for a practical op-amp vary by model and can be referenced from standard datasheets or textbooks.
-
 ### Capacitor: Charge–Voltage Relationship
 
 The amount of **charge** stored in a capacitor is proportional to the voltage across its plates:
